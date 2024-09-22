@@ -21,5 +21,5 @@ from demon import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("home/",include("demon.urls"))
+    path("",include("demon.urls"))
 ]
